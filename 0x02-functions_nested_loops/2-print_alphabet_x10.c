@@ -1,18 +1,22 @@
 #include "main.h"
+
 /**
- * print_alphabet - function to print abc times
+ * print_alphabet_x10 - function to print abc times 10
  *
  * Return: 0
  */
-void print_alphabet(void)
+
+void print_alphabet_x10(void)
+
 {
-	char c;
+	char c; i;
 
-	     for (c = 'a'; c <= 'z'; c++)
+	     for (i = '0'; i <= '9'; i++)
 	     {
-
-
+		     for (c = 'a'; c <= 'z'; c++)
+		     {
 			     _putchar(c);
+		     }
 
 		     _putchar('\n');
 	     }
